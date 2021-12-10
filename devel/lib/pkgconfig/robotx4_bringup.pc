@@ -1,0 +1,8 @@
+prefix=/home/wangchao/robotx4_ws/devel
+
+Name: robotx4_bringup
+Description: Description of robotx4_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

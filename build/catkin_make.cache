@@ -1,0 +1,2 @@
+robotx4_bringup
+-DCATKIN_DEVEL_PREFIX=/home/wangchao/robotx4_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wangchao/robotx4_ws/install -G Unix Makefiles

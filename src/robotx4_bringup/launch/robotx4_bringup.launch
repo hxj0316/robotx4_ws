@@ -1,0 +1,14 @@
+<launch>
+
+    <node pkg="socketcan_bridge" name="topic_to_socketcan_node" type="topic_to_socketcan_node" output="screen">
+    </node>
+
+    <node pkg="socketcan_bridge" name="socketcan_to_topic_node" type="socketcan_to_topic_node" output="screen">
+    </node>
+    
+    <!-- <node pkg="robotx4_bringup" name="canopen_test" type="canopen_test" output="screen">
+    </node> -->
+    <node pkg="robotx4_bringup" name="trobotx4_bringup" type="robotx4_bringup" output="screen"> -->
+    </node>
+
+</launch>
